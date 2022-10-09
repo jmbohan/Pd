@@ -1,4 +1,4 @@
-#N canvas -9 0 956 1003 12;
+#N canvas 185 21 956 1003 12;
 #X obj 163 158 osc~;
 #X floatatom 162 126 5 0 0 0 - - - 0;
 #X obj 165 93 hsl 80 15 50 1000 0 0 empty empty Freq -2 -8 0 10 #c6ffc7
@@ -40,6 +40,7 @@
 #000000;
 #X text -30 42 on;
 #X text -58 43 off;
+#X text 393 246 <-- Ring Mod;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 2 0 1 0;
